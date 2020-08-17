@@ -12,14 +12,15 @@ const App = () =>{
   } 
   else if(curDate >=12 && curDate < 17){
     ack = 'Good Afternoon';
-    Style.color = "yellow"
+    Style.color = "yellow";
   }
   else if(curDate >=17 && curDate < 20){
     ack = 'Good Evening';
-    Style.color = "orange"
+    Style.color = "orange";
   }
   else{
     ack = 'Good Night';
+    Style.color = "black";
   }
   return(
     <>
